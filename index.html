@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : GrassyGreen 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140310
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>L200170098</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,300" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<marquee><h1><font color="white">SELAMAT DATANG</h1></marquee>
+		</div>
+		<!-- end #menu --> 
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">DDL dan DML</a></h1>
+				<p>Data Definition Language (DDL) dan Data Manipulation Language (DML) adalah bagian dari DBMS (Database Management System) yang berisi perintah-perintah untuk membuat, merubah maupun memodifikasi dan menghapus data pada database <a href="http://templated.co" rel="nofollow">TEMPLATED</a></p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="banner"></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Daftar Printah SQL Berdasarkan DDL dan DML</h2>
+				</div>
+			<p><h3> 1. DDL (Data Definition Language)</h3> </p>
+        DDL merupakan perintah SQL yang berhubungan dengan pendefinisian suatu struktur database yang digunakan untuk membuat, mengubah dan menghapus struktur dan definisi metadata dari objek-objek database.
+        Beberapa perintah dasar yang termasuk DDL ini antara lain : <br/> <br/>
+        <ul class="A">
+        	<li> <strong> <font color="blue">CREATE </font></strong></br>
+        		Perintah ini digunakan untuk membuat, termasuk diantaranya membuat database baru, tabel baru, view baru, dan kolom.<br/>
+        		Contoh:<br/>
+        		<b>Membuat Database:</b><br/>
+        		<div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" color="red"> CREATE DATABASE nama_database </font></div><br/>
+				<b>Membuat Tabel:</b><br/>
+				<div style="background-color:lightcyan; border: 2px solid #444; height: 55px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;"><font face="consolas" color="red">CREATE TABLE nama_tabel ( <br/>
+				nama_kolom1 tipe_data,<br/> 
+				nama_kolom2 tipe_data); </font></div><br/>
+        	</li>
+        	<li><strong> <font color="blue">ALTER</font> </strong></br>
+        		Perintah ini digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.<br/>
+        		Contoh:<br/>
+        		<b>Menambah kolom dalam tabel:</b><br/>
+        		<div style="background-color:lightcyan; border: 2px solid #444; height: 20px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" face="consolas" color="red">ALTER TABLE nama_tabel ADD nama_kolom tipe_data</font></div><br/>
+				<b>Menghapus kolom dalam Tabel</b><br/>
+				<div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" color="red">ALTER TABLE nama_tabel DROP COLUMN nama_kolom</font></div><br/>
+				<b>Mengubah tipe data dari kolom didalam Tabel</b><br/>
+				<div style="background-color:lightcyan; border: 2px solid #444; height: 35px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" color="red">ALTER TABLE nama_tabel<br/>
+				ALTER COLUMN nama_kolom tipe_dat</font></div><br/>
+        	</li>
+        	<li><strong> <font face="consolas" color="blue"> RENAME </font></strong></br>
+        		Perintah yang digunakan untuk merubah nama Objek <br/> Contoh:<br/>
+        		<b>Mengubah Nama Tabel:</b><br/>
+        		<div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+        		<font face="consolas" color="red">RENAME TABLE table_name TO new_tabel name</font></div><br/>
+
+        	</li>
+        	<li><strong> <font face="consolas" color="blue">DROP</font> </strong></br>
+         		Perintah ini digunakan untuk menghapus database dan tabel.</br> Contoh:<br/>
+         		<b>Menghapus Database:</b><br/>
+         		<div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" color="red">DROP DATABASE nama_database</font></div><br/>
+				<b>Menghapus Tabel:</b><br/>
+				<div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" color="red">DROP TABLE nama_tabel</font><br/><br/>
+				<b>Menghapus Index:</b><br/>
+				<div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+				<font face="consolas" color="red">ALTER TABLE nama_tabel DROP INDEX nama_index</font><br/>
+         	</li> 
+        </ul> </br></br>
+     		<p><h3>2. DML (Data Manipulation Language)</h3> </p>
+          	DML merupakan perintah SQL yang digunakan untuk proses pengolahan isi data di dalam table seperti memasukkan, merubah dan menghapus isi data. dan tidak terkait dengan perubahan struktur dan definisi tipe data dari objek database.
+		 	Perintah SQL yang termasuk dalam DML antara lain : <br/> <br/>
+		<ul class="a"> 
+          	<li>  <strong> <font color="blue">UPDATE</font></strong> <br/>
+          Perintah ini digunakan untuk memperbaharui data lama menjadi data terkini. Jika anda memiliki data yang salah atau kurang Up To Date dengan kondisi sekarang, maka dapat diubah isi datanya dengan menggunakan perintah UPDATE.<br/> Contoh:<br/>
+          <b>Pembaruan Data:</b><br/>
+          <div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: auto;">
+          <font face="consolas" color="red">UPDATE nama_tabel SET nama_field = nilai, nama_field = nilai WHERE nama_field = nilai</font></div><br/>
+          	</li>
+          	<li> <strong> <font color="blue">INSERT</font></strong> <br/>
+          perintah ini digunakan untuk menyisipkan atau memasukkan data baru ke dalam tabel. Penggunaannya setelah database dan tabel selesai dibuat. <br/>Contoh:<br/>
+          <b>Memasukan Data:</b><br/>
+          <div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+          <font face="consolas" color="red">INSERT INTO nama_table VALUES (nilai_field1, nilai_field2);</font></div><br/>
+          	</li>
+          	<li> <strong> <font face="consolas" color="blue">SELECT </font></strong><br/>
+          Perintah ini digunakan untuk mengambil data atau menampilkan data dari satu tabel atau beberapa tabel dalam relasi. Data yang diambil dapat kita tampilkan dalam layar prompt MySQL secara langsung maupun ditampilkan pada tampilan aplikasi. <br/>Contoh:<br/>
+          <b>Menampilkan Data:</b><br/>
+          <div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+          <font face="consolas" color="red">SELECT nama_kolom1, nama_kolom2 FROM nama_tabel</font></div><br/>
+          	</li>
+          	<li> <strong> <font color="blue">DELETE</font></strong> <br/>
+          Perintah ini digunakan untuk menghapus data dari tabel. Biasanya data yang dihapus adalah data yang tidak diperlukan lagi. Pada saat menghapus data, perintah yang telah dijalankan tidak dapat digagalkan, sehingga data yang telah hilang tidak dapat dikembalikan lagi. <br/>Contoh:<br/>
+          <b>Menghapus Data:</b><br/>
+          <div style="background-color:lightcyan; border: 2px solid #444; height: 19px; margin: 50px 5px# padding: 10px; text-align: left; width: 500px;">
+          <font face="consolas" color="red">DELETE FROM nama_tabel WHERE nama_field = nilai</font></div><br/>
+          	</li>
+        </ul>
+. </p>
+		</div>
+		<div id="sidebar">
+			<div class="box2">
+				<div class="title">
+					<h2>penjelasan lain</h2>
+				</div>
+				<ul class="style2">
+					<li><a href="#">Perbedaan DDL dan DML</a></li>
+					<li><a href="#">Pengertian SQL, DCL</a></li>
+					<li><a href="#">Syntax DDL</a></li>
+					<li><a href="#">syntax DML</a></li>
+					<li><a href="#">Contoh DDL dan DML</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+<div id="footer-wrapper">
+	<div id="footer" class="container">
+		<div id="box1">
+			<div class="title">
+				<h2>Latest Post</h2>
+			</div>
+			<ul class="style1">
+				<li><a href="#">Perbedaan DDL dan DML</a></li>
+				<li><a href="#">Pengertian SQL, DCL</a></li>
+				<li><a href="#">Syntax DDL</a></li>
+				<li><a href="#">syntax DML</a></li>
+				<li><a href="#">Contoh DDL dan DML</a></li>
+			</ul>
+		</div>
+		<div id="box2">
+			<div class="title">
+				<h2>Popular Links</h2>
+			</div>
+			<ul class="style1">
+				<li><a href="#">Perbedaan DDL dan DML</a></li>
+				<li><a href="#">Pengertian SQL, DCL</a></li>
+				<li><a href="#">Syntax DDL</a></li>
+				<li><a href="#">syntax DML</a></li>
+				<li><a href="#">Contoh DDL dan DML</a></li>
+			</ul>
+		</div>
+		<div id="box3">
+			<div class="title">
+				<h2>Follow Us</h2>
+			</div>
+			<ul class="contact">
+				<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+				<li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
+				<li><a href="#" class="icon icon-dribbble"><span>Dribbble</span></a></li>
+				<li><a href="#" class="icon icon-tumblr"><span>Tumblr</span></a></li>
+				<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+			</ul>
+				<a href="#" class="button">Read More</a> </div>
+		</div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p><h3>L200170098 DANDUNG RAHMATDHAN</h3></p>
+</div>
+</body>
+</html>
